@@ -1,10 +1,9 @@
 {
     "version":"1.0.0",
-    "model":"Epsilon_tmp_psd_sample.moc3",
+    "model":"Epsilon_tmp_psd_sample.moc",
     "textures":[
         "Epsilon_tmp_psd_sample.2048/texture_00.png"
     ],
-    "DisplayInfo": "Epsilon_tmp_psd_sample.cdi3.json",
     "layout":{
         "center_x":0.0,
         "center_y":-0.05,
@@ -18,35 +17,44 @@
     },
     "motions":{
         "idle":[
-        { "File": "motions/smile.motion3.json" },
-	{ "File": "motions/no.motion3.json" },
-	{ "File": "motions/angry.motion3.json" },
-	{ "File": "motions/sad.motion3.json" },
-	{ "File": "motions/wink.motion3.json" },
-	{ "File": "motions/happy.motion3.json" }
+{ "File": "motions/smile.motion3.json" },
+				{ "File": "motions/no.motion3.json" },
+				{ "File": "motions/angry.motion3.json" },
+				{ "File": "motions/sad.motion3.json" },
+				{ "File": "motions/wink.motion3.json" },
+				{ "File": "motions/happy.motion3.json" }
+        ],
+        "sleepy":[
+{ "File": "motions/smile.motion3.json" },
+				{ "File": "motions/no.motion3.json" },
+				{ "File": "motions/angry.motion3.json" },
+				{ "File": "motions/sad.motion3.json" },
+				{ "File": "motions/wink.motion3.json" },
+				{ "File": "motions/happy.motion3.json" }
+        ],
+        "flick_head":[
+{ "File": "motions/smile.motion3.json" },
+				{ "File": "motions/no.motion3.json" },
+				{ "File": "motions/angry.motion3.json" },
+				{ "File": "motions/sad.motion3.json" },
+				{ "File": "motions/wink.motion3.json" },
+				{ "File": "motions/happy.motion3.json" }
         ],
         "tap_body":[
-        { "File": "motions/smile.motion3.json" },
-	{ "File": "motions/no.motion3.json" },
-	{ "File": "motions/angry.motion3.json" },
-	{ "File": "motions/sad.motion3.json" },
-	{ "File": "motions/wink.motion3.json" },
-	{ "File": "motions/happy.motion3.json" }
+{ "File": "motions/smile.motion3.json" },
+				{ "File": "motions/no.motion3.json" },
+				{ "File": "motions/angry.motion3.json" },
+				{ "File": "motions/sad.motion3.json" },
+				{ "File": "motions/wink.motion3.json" },
+				{ "File": "motions/happy.motion3.json" }
         ],
-    },
-	"Groups": [
-			{
-				"Target": "Parameter",
-				"Name": "EyeBlink",
-				"Ids": [
-					"PARAM_EYE_L_OPEN",
-					"PARAM_EYE_R_OPEN"
-				]
-			},
-			{
-				"Target": "Parameter",
-				"Name": "LipSync",
-				"Ids": []
-			}
-		]
+        "":[
+{ "File": "motions/smile.motion3.json" },
+				{ "File": "motions/no.motion3.json" },
+				{ "File": "motions/angry.motion3.json" },
+				{ "File": "motions/sad.motion3.json" },
+				{ "File": "motions/wink.motion3.json" },
+				{ "File": "motions/happy.motion3.json" }
+        ]
+    }
 }
