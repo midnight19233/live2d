@@ -1,35 +1,52 @@
 {
-	"Version": 3,
-	"FileReferences": {
-		"Moc": "Epsilon_tmp_psd_sample.moc3",
-		"Textures": [
-			"Epsilon_tmp_psd_sample.2048/texture_00.png"
-		],
-		"DisplayInfo": "Epsilon_tmp_psd_sample.cdi3.json",
-		"Motions": {
-			"TapBody": [
-				{ "File": "motions/smile.motion3.json" },
-				{ "File": "motions/no.motion3.json" },
-				{ "File": "motions/angry.motion3.json" },
-				{ "File": "motions/sad.motion3.json" },
-				{ "File": "motions/wink.motion3.json" },
-				{ "File": "motions/happy.motion3.json" }
-			]
-		}
-	},
+    "version":"1.0.0",
+    "model":"Epsilon_tmp_psd_sample.moc3",
+    "textures":[
+        "Epsilon_tmp_psd_sample.2048/texture_00.png"
+    ],
+    "DisplayInfo": "Epsilon_tmp_psd_sample.cdi3.json",
+    "layout":{
+        "center_x":0.0,
+        "center_y":-0.05,
+        "width":2.0
+    },
+    "hit_areas_custom":{
+        "head_x":[-0.35, 0.6],
+        "head_y":[0.19, -0.2],
+        "body_x":[-0.3, -0.25],
+        "body_y":[0.3, -0.9]
+    },
+    "motions":{
+        "idle":[
+        { "File": "motions/smile.motion3.json" },
+	{ "File": "motions/no.motion3.json" },
+	{ "File": "motions/angry.motion3.json" },
+	{ "File": "motions/sad.motion3.json" },
+	{ "File": "motions/wink.motion3.json" },
+	{ "File": "motions/happy.motion3.json" }
+        ],
+        "tap_body":[
+        { "File": "motions/smile.motion3.json" },
+	{ "File": "motions/no.motion3.json" },
+	{ "File": "motions/angry.motion3.json" },
+	{ "File": "motions/sad.motion3.json" },
+	{ "File": "motions/wink.motion3.json" },
+	{ "File": "motions/happy.motion3.json" }
+        ],
+    },
 	"Groups": [
-		{
-			"Target": "Parameter",
-			"Name": "EyeBlink",
-			"Ids": [
-				"PARAM_EYE_L_OPEN",
-				"PARAM_EYE_R_OPEN"
-			]
-		},
-		{
-			"Target": "Parameter",
-			"Name": "LipSync",
-			"Ids": []
-		}
-	]
+			{
+				"Target": "Parameter",
+				"Name": "EyeBlink",
+				"Ids": [
+					"PARAM_EYE_L_OPEN",
+					"PARAM_EYE_R_OPEN"
+				]
+			},
+			{
+				"Target": "Parameter",
+				"Name": "LipSync",
+				"Ids": []
+			}
+		]
 }
