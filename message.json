@@ -1,0 +1,18 @@
+{
+    "mouseover": [
+        {
+            "selector": ".title a",
+            "text": ["要看看 {text} 么？"]
+        },
+        {
+            "selector": ".searchbox",
+            "text": ["在找什么东西呢，需要帮忙吗？"]
+        }
+    ],
+    "click": [
+        {
+            "selector": "#landlord #live2d",
+            "text": ["我可爱吗~~~~", "你是不是喜欢我呀~","希望你每一天都能开开心心的", "今天有遇到什么开心的事嘛~", "要记得多来看看我噢！"]
+        }
+    ]
+}
